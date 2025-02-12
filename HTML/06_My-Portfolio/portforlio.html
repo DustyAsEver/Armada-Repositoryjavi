@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my portfolio</h1>
+                <ul>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <h2 id="about-me">About me</h2>
+            <p>Hello! My name is John Jabez Visarra but youcan call me "Javi". I am passionate about web development and ejoy creating projects that solve real-world problems. This portfolio showcases some of my work and interets.</p>
+            <img src="images/Photo of me.jpg" alt="A photo of Javi smiling"> 
+        </header>
+        <section>
+            <h2 id="projects">Projects</h2>
+                <table>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Project One</td>
+                        <td>A website that helps users track their daily habits</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Project Two</td>
+                        <td>A simple to-do list application with local storage</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Project Three</td>
+                        <td>A photography portfolio showcasing my best work</td>
+                        <td>2023</td>
+                    </tr>
+                </table>
+        </section>
+        <section>
+            <h2 id="contact">Contact Me</h2>
+                <form>
+                    <label for="FullName">Full Name: </label>
+                    <input type="text" id="FullName" name="FullName">
+                    <br><br>
+                    <label for="EmailAddress">Email Address: </label> 
+                    <input type="text" id="EmailAddress" name="EmailAddress">
+                    <br><br>
+                    <fieldset>
+                        <legend>How did you hear about this portfolio?</legend>
+                            <br>
+                            <input type="radio" id="friend" name="friend">
+                            <label for="friend">Friend</label>
+                            <br><br>
+                            <input type="radio" id="social-med" name="social-med">
+                            <label for="social-med">Social Media</label>
+                            <br><br>
+                            <input type="radio" id="search-eng" name="search-eng">
+                            <label for="search-eng">Search Engine</label>  
+                            <br><br>
+                            <input type="radio" id="other" name="other">
+                            <label for="other">Other</label>
+                            <br><br>     
+                    </fieldset>
+                    <br><br>
+                    <fieldset>
+                        <legend>Skills/Interest?</legend>
+                            <input type="checkbox" name="web-dev" id="web-dev">
+                            <label for="web-dev">Web Development</label>
+                            <br><br>
+                            <input type="checkbox" name="design" id="design">
+                            <label for="design">Design</label>
+                            <br><br>                    
+                            <input type="checkbox" name="photography" id="CustomerSupport">
+                            <label for="CustomerSupport">Customer Support</label>
+                    </fieldset>
+                    <br><br>
+                        <label for="feedback">Comments or Messages: </label>
+                        <br>
+                        <textarea name="feedback" rows="10" cols="100"></textarea>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                </form>
+        </section>   
+        <footer>
+            <p>© JOHN JABEZ VISARRA 2025</p>
+        </footer>
+    </body>
+</html>
