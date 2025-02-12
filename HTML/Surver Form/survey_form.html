@@ -5,70 +5,59 @@
     </head>
     <body>
         <header>
-        <h1>Survey Form</h1>
-        <form>
-            <section>   
-                <label for="FullName">Full Name: </label>
-                <input type="text" id="FullName" name="FullName">
-            </section>
-            <section>   
-                <label for="EmailAddress">Email Address: </label> 
-                <input type="text" id="EmailAddress" name="EmailAddress">
-            </section>
-        </header>
-        <p>
-            <fieldset>
-                <legend>How are you satisfied with our service</legend>
-                <section>
-                    <input type="radio" id="VerySatisfied" name="VerySatisfied">
-                    <label for="VerySatisfied">Very Satisfied</label>
-                </section>  
-                    <input type="radio" id="Satisfied" name="Satisfied">
-                    <label for="Satisfied"> Satisfied</label>
-                </section> 
-                <section> 
-                    <input type="radio" id="Neutral" name="Neutral">
-                    <label for="Neutral">Neutral</label>
+            <h1>Survey Form</h1>
+        </header>    
+            <form>
+                <section>   
+                    <label for="FullName">Full Name: </label>
+                    <input type="text" id="FullName" name="FullName">
+                    <br><br>
+                    <label for="EmailAddress">Email Address: </label> 
+                    <input type="text" id="EmailAddress" name="EmailAddress">
                 </section>
-                <section>
-                    <input type="radio" id="Dissatisfied" name="Dissatisfied">
-                    <label for="Dissatisfied">Dissatisfied</label>
-                </section>  
-                    <input type="radio" id="VeryDissatisfied" name="VeryDissatisfied">
-                    <label for="VeryDissatisfied">Very Dissatisfied</label>
-            </fieldset>
-        </p>
-        <p>
-            <fieldset>
-                <legend>What features do you value most?</legend>
-                <section>      
-                    <input type="checkbox" name="EasyofUse" id="EasyofUse">
-                    <label for="EasyofUse">Easy of use</label>
-                </section> 
-                <section>
-                    <input type="checkbox" name="Design" id="Design">
-                    <label for="Design">Design</label>
-                </section> 
-                    <input type="checkbox" name="CustomerSupport" id="CustomerSupport">
-                    <label for="CustomerSupport">Customer Support</label>
-            </fieldset>
-        </p>
-        <p>
-                    <label for="describe">What best describes you?</label>
-                        <select name="describe" id="describe">
-                            <option value="Student">Student</option>
-                            <option value="Professional">Professional</option>   
-                            <option value="Hobbyist">Hobbyist</option>
-                            <option value="Other">Other</option>
-                        </select>
-        </p>       
-                <section>
+                <br>
+                <fieldset>
+                    <legend>How are you satisfied with our service</legend>
+                        <input type="radio" id="VerySatisfied" name="VerySatisfied">
+                        <label for="VerySatisfied">Very Satisfied</label>
+                        <br><br>
+                        <input type="radio" id="Satisfied" name="Satisfied">
+                        <label for="Satisfied"> Satisfied</label>
+                        <br><br>
+                        <input type="radio" id="Neutral" name="Neutral">
+                        <label for="Neutral">Neutral</label>  
+                        <br><br>
+                        <input type="radio" id="Dissatisfied" name="Dissatisfied">
+                        <label for="Dissatisfied">Dissatisfied</label>
+                        <br><br>
+                        <input type="radio" id="VeryDissatisfied" name="VeryDissatisfied">
+                        <label for="VeryDissatisfied">Very Dissatisfied</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>What features do you value most?</legend>
+                        <input type="checkbox" name="EasyofUse" id="EasyofUse">
+                        <label for="EasyofUse">Easy of use</label>
+                        <br><br>
+                        <input type="checkbox" name="Design" id="Design">
+                        <label for="Design">Design</label>
+                        <br><br>                    
+                        <input type="checkbox" name="CustomerSupport" id="CustomerSupport">
+                        <label for="CustomerSupport">Customer Support</label>
+                </fieldset>
+                        <br>
+                <label for="describe">What best describes you?</label>
+                <select name="describe" id="describe">
+                    <option value="Student">Student</option>
+                    <option value="Professional">Professional</option>   
+                    <option value="Hobbyist">Hobbyist</option>
+                    <option value="Other">Other</option>
+                </select>    
+                    <br><br>
                     <label for="Feedback">Addional Feedback: </label>
-                </section>
-                <section>
+                    <br>
                     <textarea name="Feedback" rows="10" cols="100"></textarea>
-        
-                </section>
+                    <br><br>
                 <input type="submit" value="Submit">
         </form>
     </body>
