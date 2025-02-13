@@ -11,9 +11,9 @@ body {
     background-color: #ffcc00;
     height: 150px;
     margin-bottom: 20px;
-
-
   }
+
+  
   main{
     display:flex;
     flex-direction: row;
