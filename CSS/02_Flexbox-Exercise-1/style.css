@@ -1,12 +1,25 @@
 body {
+    height: 100vh;
     width: 1200px;
-    margin: 0 auto;
+    margin:0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   header {
     background-color: #ffcc00;
     height: 150px;
+    margin-bottom: 20px;
+
+
   }
+  main{
+    display:flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+    
   
   aside {
     background-color: #9b59b6;
@@ -23,4 +36,5 @@ body {
   footer {
     background-color: #e74c3c;
     height: 100px;
+    margin-top: 20px;
   }
