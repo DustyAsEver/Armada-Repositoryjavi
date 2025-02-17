@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 10px 15px;
+  margin: 0;
   padding: 0;
 }
 
@@ -26,7 +26,6 @@ header {
   flex-grow: 0.3;
   gap: 20px;
   color: #ffffff;
-  border: #d8d4d4 1px ;
   padding: 10px;
   background: #d8d4d4;
 }
