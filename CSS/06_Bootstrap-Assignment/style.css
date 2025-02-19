@@ -17,18 +17,15 @@ header{
     display: flex;
     list-style-type: none;
     position: absolute;
-    left: 20px;
+    left: 5px;
+    align-items: center;
 }
 .nav a{
     text-decoration: none;
     display: inline-block;
-    margin: 0px 10px;
+    margin: auto 0px;
     color: #bcbcfc;
-    font-size: 15px;
-}
-.nav li{
-    margin: 0px 3px;
-
+    font-size: 12px;
 }
 .nav a:hover{
     color:#d4d4fb ;
@@ -43,7 +40,10 @@ header{
     padding: 5px;
     width: 200px;
 }
-
+header .nav img{
+    height: 25px;
+    width: 25   px ;
+}
 .main-logo{
     height: 146.72px ;
     width:135px ;
