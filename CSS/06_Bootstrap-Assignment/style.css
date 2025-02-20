@@ -30,6 +30,9 @@ header{
 .nav a:hover{
     color:#d4d4fb ;
 }
+input::placeholder{
+    color: #bcbcfc;
+}
 .search-container input{
     display: flex;
     justify-content: center;
@@ -88,7 +91,7 @@ ul li{
     color: white;
     text-decoration: none;
 }
-button{
+.btn-dark, .btn-read-docs{
     color: white;
     border-radius: 5px;
     margin: 5px;
@@ -104,7 +107,6 @@ button{
 .btn-read-docs{
     background: #6f2cf5;
     padding: 10px 25px;
-    
     
 }
 
