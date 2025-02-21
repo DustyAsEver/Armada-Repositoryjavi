@@ -1,6 +1,4 @@
-* {
-    outline: 1px dotted red; /* Use outlines for a non-intrusive way to see element boundaries */
-  }
+
 body{
     margin: 0;
     font-family: "Roboto";
@@ -15,6 +13,7 @@ header{
     padding: 30px;
     border-top: 3px #E7700D solid;
     border-bottom: 1px #CACED3 solid ;
+
 }
 
 nav{
@@ -45,9 +44,7 @@ nav{
     color: #878a8d;
     font-size: 13px;
 }
-.nav-list li{
 
-}
 
 .search-container input{
     display: flex;
@@ -74,6 +71,16 @@ form{
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    margin-right: 20px;
+}
+
+.btn-orange{
+    padding: 8px 10px;
+    background: #E7700D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-white{
@@ -84,16 +91,19 @@ form{
     text-decoration: none;
 }
 
-.blue-underl a{
+.blue-text{
     color: #1B75D0;
-    font-size: 13px;
+}
+
+.no-underl{
+    text-decoration: none;
 }
 
 
 
 aside{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 aside a{
     text-decoration: none;
@@ -103,6 +113,7 @@ aside li{
     list-style-type: none;
     margin: 15px 0px;
     display: flex;
+    align-items: start;
 }
 
 h3{
@@ -123,11 +134,17 @@ span{
     padding: 5px 10px;
     background-size: contain;
     background: url(background-image.png) no-repeat center;
-    
+    color: white;
+    width: 200px;
+    text-align: center;
 }
-.main-content{
+    
+
+section{
     margin-left: 72px;
     position: relative;
+    width: 1050px;
+
 }
 h1{
     font-size: 35px;
@@ -140,6 +157,125 @@ p{
 
 article{
     padding: 30px;
+}
+
+
+.buttons{
+    margin-top: 30px;
+}
+.hero{
+    position: relative;
+    padding-bottom: 54px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     background: #F9FAFA;
+    color: #3e3f40;
+
+}
+.hero img{
+    position: absolute;
+    width:  500px;
+    height: 250px;
+    left:550px;
+    top: 100px;
+}
+
+.divider{
+    color: #3e3f40;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+.teams{
+    position: relative;
+    border: 1px #a2a6a9 solid;
+    border-radius: 5px;
+    color: #3e3f40;
+}
+.teams-logo{
+    width: 150px;
+    height: 35px;
+    padding: 0 8px;
+}
+
+.teams-img{
+    position: absolute;
+    width:  450px;
+    height: 160px;
+    left:600px;
+    bottom: 0px;
+    
+}
+
+.flow-ai{
+    margin-top: 20px;
+    background: #3B4045;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.flow-logo{
+    width: 180px;
+    height: 50px;
+    padding: 0 8px;
+}
+.flow-img{
+    position: absolute;
+    width:  450px;
+    height: 160px;
+    left:600px;
+    bottom: 0px;
+}
+
+.both{
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.ads-api-container{
+    border: 1px #a2a6a9 solid;
+    border-radius: 5px;
+    color: #3e3f40;
+    width: 450px;
+    
+}
+.api-container{
+    margin-bottom: 50px;
+}
+.ad-logo{
+    width: 150px;
+    height: 35px;
+    padding: 0 8px;
+}
+
+
+
+
+
+.flow-api-logo{
+    width: 150px;
+    height: 35px;
+
+}
+
+.api{
+    border: 1px #a2a6a9 solid;
+    border-radius: 5px;
+    color: #3e3f40;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.api-img{
+    position: absolute;
+    width:  500px;
+    height: 250px;
+    left:550px;
+    bottom: 0px;
 }
 
