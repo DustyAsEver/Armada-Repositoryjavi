@@ -1,0 +1,145 @@
+* {
+    outline: 1px dotted red; /* Use outlines for a non-intrusive way to see element boundaries */
+  }
+body{
+    margin: 0;
+    font-family: "Roboto";
+    padding: 0;
+    background:  #ffffff;
+}
+header{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-top: 3px #E7700D solid;
+    border-bottom: 1px #CACED3 solid ;
+}
+
+nav{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 120px;
+    align-items: center;
+
+}
+.main-logo{
+    width: 150px;
+    height: 30px;
+    padding: 0 8px;
+}
+
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 5px;
+}
+.nav-list a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 15px;       
+    color: #878a8d;
+    font-size: 13px;
+}
+.nav-list li{
+
+}
+
+.search-container input{
+    display: flex;
+    justify-content: center;
+    color: black;
+    border: #CACED3 1px solid;
+    border-radius: 5px;
+    padding: 7px 9px 7px 32px;
+    width: 670px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.btn-blue{
+    padding: 8px 10px;
+    background: #1B75D0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-white{
+    padding: 8px 10px;
+    color: #1B75D0;
+    border: 1px #1B75D0 solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.blue-underl a{
+    color: #1B75D0;
+    font-size: 13px;
+}
+
+
+
+aside{
+    display: flex;
+    flex-direction: column; 
+}
+aside a{
+    text-decoration: none;
+    color: #878a8d;
+}   
+aside li{
+    list-style-type: none;
+    margin: 15px 0px;
+    display: flex;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+main{
+    margin-left: 90px;
+    display: flex;
+}
+
+span{
+    display: block;
+}
+.highlight{
+    display: inline-block;
+    padding: 5px 10px;
+    background-size: contain;
+    background: url(background-image.png) no-repeat center;
+    
+}
+.main-content{
+    margin-left: 72px;
+    position: relative;
+}
+h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+article{
+    padding: 30px;
+    background: #F9FAFA;
+}
+
