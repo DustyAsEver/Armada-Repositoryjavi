@@ -30,9 +30,7 @@ header{
 .nav a:hover{
     color:#d4d4fb ;
 }
-input::placeholder{
-    color: #bcbcfc;
-}
+
 .search-container input{
     display: flex;
     justify-content: center;
@@ -42,6 +40,9 @@ input::placeholder{
     border-radius: 5px;
     padding: 5px;
     width: 200px;
+}
+input::placeholder{
+    color: #bcbcfc;
 }
 header .nav img{
     height: 25px;
