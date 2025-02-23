@@ -6,7 +6,7 @@ body{
 }
 header{
     background: #25292E;
-    padding: 10px 15px;
+    padding:16px;
     
 }
 
@@ -19,6 +19,7 @@ header, .header-nav, .header-nav li, .buttons{
 .header-nav{
     margin-right: 300px;
     justify-content: space-evenly;
+    padding-left: 28px;
 
 }
 .header-nav ul, .footer-nav ul{
@@ -36,7 +37,7 @@ header, .header-nav, .header-nav li, .buttons{
     display: inline-block;
     align-items: center;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
 
 
 }
