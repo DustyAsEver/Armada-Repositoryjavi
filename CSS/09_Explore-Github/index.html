@@ -24,14 +24,12 @@
                     <img class="search-icon" src="github/icons/svgexport-14.png" alt="search-icon">
                     <input type="search" class="search-container" placeholder="Search...">
                     <img class="slash-icon"src="github/icons/svgexport-15.png" alt="slash-icon">
-                
-                    <div class="buttons">
-                        <a href="#">Sign in</a>
-                        <a class="sign-up" href="#">Sign up</a>
-                    </div>
-                </form>      
+                </form>
+                <div class="buttons">
+                    <a href="#">Sign in</a>
+                    <a class="sign-up" href="#">Sign up</a>
+                </div>
         </header>
-        <main>
            <nav class="main-nav">
                 <ul>
                     <li><a href="">Explore</a></li>
@@ -42,70 +40,108 @@
                     <li><a href="">Github Sponsors</a></li>
                 </ul>
            </nav>
+           <main>
            <section>
                 <h1>Here's what's popular on GitHub today... </h1>
-                <article>
-                    <img src="github/game-off-2024.png" alt="game-off-picture">
-                    <h2><img src="github/icons/svgexport-22.png" alt="github-logo">Game Bytes</h2>
-                    <a href="#">Top-rated games from Game Off 2024</a>
-                    <p>Another year, another incredible Github Game Off—and this one was secrets-ational! With <span>over 500 submissions, participants turned the theme of "secrets" into an extraordinary</span><span>showcase of creativity, humor, and mind-boggling mechanics. Play the top-rated games</span><span>now!</span></p>
-                </article>
-                <article>
-                    <h2><img src="github/icons/svgexport-22.png" alt="github-logo">Collection recommended by Github</h2>
-                    <a href="#">Game Engines</a>
-                    <p>Frameworks for building games across multiple platforms</p>
-                    <a href="">See the 57 items in this collection ></a>
+                <article class="article-1">
+                    <img class="article-1-img" src="github/game-off-2024.png" alt="game-off-picture">
+                    <div class="article-1-content">
+                        <div class="article-1-title">
+                            <img class="gitlogo-article" src="github/icons/svgexport-22.png" alt="github-logo">
+                            <h2>Game Bytes</h2>
+                        </div>
+                        <a href="#">Top-rated games from Game Off 2024</a>
+                        <p>Another year, another incredible Github Game Off—and this one was secrets-ational! With over 500 submissions, participants turned the theme of "secrets" into an extraordinary showcase of creativity, humor, and mind-boggling mechanics. Play the top-rated games now!</p>
+                    </div>
+                    </article>
+                <article class="article-2">
+                    <div class="article-2-wrapper">
+                        <div class="article-2-title">
+                            <img class="gitlogo-article"  src="github/icons/svgexport-22.png" alt="github-logo">
+                            <h2>Collection recommended by Github</h2>
+                        </div>
+                        <div class="article-2-content">
+                            <p class="img-placeholder">#</p>
+                            <div>
+                                <a class="article-2-game" href="#">Game Engines</a>
+                                <p>Frameworks for building games across multiple platforms</p>
+                                <a class="article-2-collection" href="">See the 57 items in this collection ></a>
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </section>
             <aside>
-                <a href=""><img src="github/icons/svgexport-24.png" alt="">Trending developers</a>
                 <ul>
-                    <li>
-                        <img src="github/2735933.jfif" alt="">
-                        <article>
+                    <li class="aside-header">
+                        <img src="github/icons/svgexport-24.png" alt="">
+                        <a  href="">Trending developers</a>
+                    </li>
+                    <li class="profile">
+                        <img class="profile-pic" src="github/2735933.jfif" alt="">
+                        <article class="profile-details">
                             <a href="">Sebastian Muszynski</a>
                             <h2>syssi</h2>
-                            <div>
+                            <div class="profile-repo">
                                 <img src="github/icons/svgexport-25.png" alt=""><a href="">esphome-jk-bms</a>
                             </div>
                         </article>   
                     </li >     
-                    <li>
-                        <img src="github/65165915.jfif" alt="">
-                        <article>
+                    <li class="profile">
+                        <img class="profile-pic" src="github/65165915.jfif" alt="">
+                        <article class="profile-details">
                             <a href="">Eric Buehler</a>
                             <h2>EricLBuehler</h2>
-                            <div>
-                                <img src="github/icons/svgexport-25.png" alt=""><a href="">mistral.rs</a>
+                            <div class="profile-repo">
+                                <img src="github/icons/svgexport-25.png" alt="">
+                                <a href="">mistral.rs</a>
                             </div>
                         <article>   
                     </li>
-                    <li>
-                        <img src="github/59658056.jfif" alt="">
-                        <article>
+                    <li class="profile">
+                        <img class="profile-pic" src="github/59658056.jfif" alt="">
+                        <article class="profile-details">
                             <a href="">Bagheera</a>
                             <h2>bghira</h2>
-                            <div>
+                            <div class="profile-repo">
                                 <img src="github/icons/svgexport-25.png" alt=""><a href="">SimpleTuner</a>
                             </div>
                         <article>   
                     </li>
-                    <li>
-                        <img src="github/469092.png" alt="">
-                        <article>
+                    <li class="profile">
+                        <img class="profile-pic" src="github/469092.png" alt="">
+                        <article class="profile-details">
                             <a href="">Jack Lloyd</a>
                             <h2>randombit</h2>
-                            <div>
+                            <div class="profile-repo">
                                 <img src="github/icons/svgexport-25.png" alt=""><a href="">botan</a>
                             </div>
                         <article>   
                     </li>
+                    <li class="aside-footer">
+                        <a href="">See more trending developers></a>
+                    </li>
                 </ul>
-                <a href="">See more trending developers</a>
             </aside>
         </main>
         <footer>
-            <img src="github/icons/svgexport-26.png" alt="">
+            <nav class="footer-nav">
+                <div class="footer-title">
+                <a href=""><img src="github/icons/svgexport-26.png" alt=""></a>
+                <p> © 2025 GitHub, Inc.</p>
+                </div>
+                <ul>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Security</a></li>
+                        <li><a href="">Status</a></li>
+                        <li><a href="">Docs</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Manage cookies</a></li>
+                        <li><a href="">Do not share my personal information</a></li>
+
+                </ul>
+            </nav>
         </footer>
     </body>
 </html>
