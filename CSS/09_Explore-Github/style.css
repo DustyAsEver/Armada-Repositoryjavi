@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    font-family: "Roboto";
+    padding: 0;
+    background:  #0D1117;
+}
+header{
+    background: #25292E;
+    padding: 6px 15px;
+    
+}
+
+header, .header-nav, .header-nav li, .buttons{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-nav{
+    margin-right: 300px;
+    justify-content: space-evenly;
+
+}
+.header-nav ul, .footer-nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    gap: 15px;
+}
+
+
+
+.header-nav a{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+
+
+}
+
+form{
+    position: relative;
+    margin-left: auto;
+}
+form input{
+    padding-left: 25px ;
+}
+.search-container {
+    display: flex;
+    position: relative;
+    background: none;
+    color: #C8C9CA;
+    border: #818B98 1px solid;
+    border-radius: 5px;
+    margin-left: auto;
+    height: 30px;
+    width: 300px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.slash-icon{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+input::placeholder{
+    color: #C8C9CA;
+}
+
+.buttons{
+    gap: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+.sign-up{
+    border: 1px white solid ;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+.main-nav{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav li{
+    margin-right: 20px;
+}
+.main-nav a{
+    text-decoration: none;
+    display: inline-block;      
+    color: #585D66;
+    font-size: 14px;
+    padding: 16px 0px ;
+}
+
+.main-nav a:hover{
+    border-bottom: 1px #3D444D solid ;
+    color: white;
+}
+.main-nav a:active{
+    border-bottom: 1px #1074E7 solid ;
+}
+
+main{
+    display: flex;
+    border-top: 1px #0a0e12 solid;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+section{
+    justify-content: center;
+    width: 640px;
+}
+
+section a, aside a{
+    text-decoration: none;
+    color:#1074E7;
+}
+
+section a:hover, aside a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 12px;
+    margin: 0;
+}
+section h1, h2, p{
+    color: #758189;
+}
+
+section article{
+    border: 1px #3D444D solid;
+    border-radius: 5px;
+    width: 100%;
+}
+section a{
+    text-decoration: none;
+}
+
+.article-1-img{
+    width: 100%;
+    height: 300px;
+}
+.article-1-title{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.gitlogo-article{
+    width: 16px;
+    height: 16px;
+}
+.article-1-content, .article-2-wrapper{
+    padding: 16px;
+
+}
+
+.article-1-content a, .article-2-game{
+    font-size: 20px;
+}
+
+.article-1-content p, .article-2-content p, .article-2-collection{
+    font-size: 15px;
+}
+
+.article-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.article-2-title, .profile-repo, .footer-title{
+    display: flex;
+    gap: 5px;
+}
+
+.article-2-content{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px 20px 0;
+}
+
+.img-placeholder{
+    padding: 50px;
+    background: #111D2F;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+aside, .profile-details{
+    display: flex;
+    flex-direction: column;
+}
+.profile-details h2{
+    font-weight: 400;
+
+}
+.aside-header{
+    background: #151B23;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.aside-header, .profile, .aside-footer{
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #758189; 
+    border-left: 1px solid #758189;
+    border-right: 1px solid #758189;
+    padding: 16px;
+    font-size: 12px;
+}
+.aside-header a{
+    color: white;
+}
+.aside-header img, .profile-repo img{
+    height: 12px;
+    width: 12px;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 51.6px;
+    height: 51.6px;
+}
+aside a{
+    color: #1074E7;
+}
+
+    
+.profile-repo{
+    font-size: 10px;
+    margin-top: 10px;
+
+}
+
+.profile-repo a{
+    color: #758189;
+}
+
+.aside-footer{
+    border-bottom: 1px solid #758189;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer-nav{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-title{
+    align-items: center;
+}
+
+.footer-nav a{
+    text-decoration: none;      
+    color: #585D66;
+    font-size: 12px;
+}
+
+.footer-nav a:hover{
+    color: #1074E7;
+}
