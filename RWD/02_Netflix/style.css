@@ -29,6 +29,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 15px;
+    margin-right: 20px ;
 }
 .lang {
     display: flex;
@@ -102,22 +103,28 @@ span{
     border-radius: 5px;
 }
 .title{
-    margin-left: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: white;
 }
 
-.trending{
+section {
+    width: 1100px;
+}
+.trending, .reasons-content{
+    text-align: start;
+    margin: 0 auto;
+}
+.trending ul, .reasons{
     display: flex;
-    gap: 20px;
     align-items: center; 
     justify-content: center;
-    
+    gap: 20px;
+    padding: 0;
 }
 li{
     list-style: none;
 }   
-img{
+.trending img{
     border-radius: 10px;
 }
 
@@ -129,13 +136,14 @@ img{
     border-radius: 5px;
     border: none;
 }
-.reasons{
-    display: flex;
+
+.reasons-content{ 
+    display: flex; 
+    flex-direction: column; 
     justify-content: center;
-    gap: 20px;
-    padding: 10px;
-    
+    align-content: center;
 }
+
 .reasons div{
     background: #192247;
     color: white;
@@ -151,8 +159,7 @@ img{
 }
 
 .start-bottom{
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin: 100px auto 30px;
     
 }
 footer p{
@@ -161,9 +168,10 @@ footer p{
     align-items: center;
     color: white;
     width: 570px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
     gap: 0px;
+    font-size: 14px;
 }   
 footer .search-container{
     display: flex;
@@ -172,9 +180,77 @@ footer .search-container{
     gap: 5px;
 }
 footer .search-container input{
-    padding-right: 200px;
+    width: 460px;
+    height: 56px;
 }
 
+.btn-get-started-ftr{
+    background-color: rgb(255, 51, 0);
+    color: white;
+    padding: 27px 15px;
+    border: none;
+    border-radius: 5px;
+
+}
+@media (max-width: 1023px){
+    .logo{
+    height: 50px ;  
+    width:  120px;
+    margin-left: 120px;
+}
+.top-buttons{
+    gap: 15px;
+
+}
+    .btn-sign-in {
+    padding: 10px 15px;
+    
+}
+.lang {
+    
+    padding: 8px 15px;  
+}
+.trending{
+    gap: 10px;
+    width: 80%;
+}
+.trending img{ 
+    height: 219px ;
+    width: 90% ;
+    
+}
+.main-text h1{
+    font-size: 30px;
+    }
+
+.main-text p{
+    font-size: 19px;
+}
+
+.search-container input{
+    padding: 20px 30px 20px 15px;
+    font-size: 17px;
+
+}
+.btn-get-started{
+    background-color: rgb(255, 51, 0);
+    color: white;
+    padding: 21px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.reasons{
+    display: block;
+}
+.reasons div{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+
+}
+   
+}
 
 
 
