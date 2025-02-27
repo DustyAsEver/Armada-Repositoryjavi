@@ -252,6 +252,23 @@ footer .search-container input{
    
 }
 
+@media (max-width: 1024px) {
+    nav{
+        gap: 10px;
+    }
+    .search-container{
+        width: 30vw;
+        min-width: 120px;
+    }
+    .top-buttons{
+        padding: 6px 10px;
+    }
+    .hero{
+        flex-direction: column;
+        position: relative;
+
+
+
 
 
 
